@@ -23,10 +23,10 @@ describe('Topbar Component', () => {
     vi.clearAllMocks();
   });
 
-  it('should render Alumni Connect title', () => {
+  it('should render Alumni Social title', () => {
     render(<Topbar />);
     
-    expect(screen.getByText('Alumni Connect')).toBeInTheDocument();
+    expect(screen.getByText('Alumni Social')).toBeInTheDocument();
   });
 
   it('should show hamburger menu on mobile', () => {
@@ -58,7 +58,7 @@ describe('Topbar Component', () => {
     render(<Topbar />);
     
     // Check if the FaUserTie icon is rendered
-    const heading = screen.getByText('Alumni Connect');
+    const heading = screen.getByText('Alumni Social');
     const iconContainer = heading.parentElement?.querySelector('span');
     expect(iconContainer).toBeInTheDocument();
   });
@@ -67,7 +67,7 @@ describe('Topbar Component', () => {
     render(<Topbar />);
     
     // Check the main container (outermost div) which has the bg-slate-100 class
-    const mainContainer = screen.getByText('Alumni Connect').closest('.bg-slate-100');
+    const mainContainer = screen.getByText('Alumni Social').closest('.bg-slate-100');
     expect(mainContainer).toBeInTheDocument();
     expect(mainContainer).toHaveClass('bg-slate-100', 'text-black', 'p-4');
   });

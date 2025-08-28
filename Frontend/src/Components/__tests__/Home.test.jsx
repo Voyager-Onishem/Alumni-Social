@@ -11,7 +11,7 @@ describe('Home Component', () => {
     render(<Home />);
     
     // Check for the main heading specifically
-    const mainHeading = screen.getByRole('heading', { name: /^Alumni Connect$/, level: 1 });
+    const mainHeading = screen.getByRole('heading', { name: /^Alumni Social$/, level: 1 });
     expect(mainHeading).toBeInTheDocument();
   });
 
@@ -19,7 +19,7 @@ describe('Home Component', () => {
     render(<Home />);
     
     // Check for the welcome heading
-    const welcomeHeading = screen.getByRole('heading', { name: /Welcome to Alumni Connect/, level: 2 });
+    const welcomeHeading = screen.getByRole('heading', { name: /Welcome to Alumni Social/, level: 2 });
     expect(welcomeHeading).toBeInTheDocument();
     
     // Check for descriptive paragraph

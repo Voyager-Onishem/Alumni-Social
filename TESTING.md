@@ -1,4 +1,4 @@
-# Testing Guide for Alumni Connect
+# Testing Guide for Alumni Social
 
 ## ✅ **Status: Successfully Implemented!**
 

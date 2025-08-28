@@ -1,9 +1,8 @@
-# Alumni-Connect
-Alumni Connect is a web application designed to enhance connections within alumni communities. It provides a platform for organizing events, sharing job opportunities, and facilitating communication among alumni.
+# Alumni-Social
+Alumni Social is a web application designed to enhance connections within alumni communities. It provides a platform for organizing events, sharing job opportunities, and facilitating communication among alumni.
 
-# Old Version
-The old version of this Web Application was class component-based.
-* [Have a look](https://github.com/SahilAli8808/Alumni-Connects)
+## Overview
+This project provides comprehensive social networking features specifically tailored for alumni communities, enabling seamless connections and engagement.
 
 ## Key Features
 
@@ -22,9 +21,9 @@ The old version of this Web Application was class component-based.
 - **Support Tickets:** Address alumni needs with efficient support.
 
 ## Getting Started
-<!-- Sreenshot -->
-![Screenshot](https://github.com/Kumailrizvi786/Alumni-Connect/blob/main/Frontend/src/assets/img/screenshots.jpg)
-<!-- Sreenshot -->
+<!-- Screenshot -->
+![Alumni Social Screenshot](Frontend/src/assets/img/screenshots.jpg)
+<!-- Screenshot -->
 ### Prerequisites
 * [Node.js](https://nodejs.org/en/download/)
 * [MongoDB](https://www.mongodb.com/download-center/community)
@@ -32,15 +31,11 @@ The old version of this Web Application was class component-based.
 ### Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/SahilAli8808/Alumni-Connect.git
-```
-or 
-```sh
-git clone https://github.com/Kumailrizvi786/Alumni-Connect.git
+git clone https://github.com/Voyager-Onishem/Alumni-Social.git
 ```
 1.2 Change directory
 ```sh   
-cd Alumni-Connect
+cd Alumni-Social
 ```
 1.3 create a .env file and add the following(can use .env.example as a reference)
 ```sh
@@ -78,9 +73,8 @@ npm start
 * [MongoDB](https://www.mongodb.com/download-center/community)
 * [Mongoose](https://mongoosejs.com/)
 
-## Authors
-* [**Sahil Ali**](https://www.linkedin.com/in/sahilali20/)
-* [**Syed Kumail Rizvi**](https://www.linkedin.com/in/syed-kumail-rizvi/)
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
